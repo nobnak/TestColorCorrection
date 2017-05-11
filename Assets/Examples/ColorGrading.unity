@@ -384,17 +384,10 @@ Prefab:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11464684, guid: 88051efa8e2d76e4daace6b4665bc261, type: 2}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11464684, guid: 88051efa8e2d76e4daace6b4665bc261, type: 2}
-      propertyPath: debugMode
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11464684, guid: 88051efa8e2d76e4daace6b4665bc261, type: 2}
-      propertyPath: data.debugMode
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
+      propertyPath: data.alternativeImage
+      value: 
+      objectReference: {fileID: 2800000, guid: 65a59388e93e2c84c990807d388ef413, type: 3}
+    m_RemovedComponents:
+    - {fileID: 11431076, guid: 88051efa8e2d76e4daace6b4665bc261, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 88051efa8e2d76e4daace6b4665bc261, type: 2}
   m_IsPrefabParent: 0
