@@ -1,3 +1,6 @@
 [submodule "Assets/Packages/ColorCorrection"]
 	path = Assets/Packages/ColorCorrection
 	url = git@github.com:nobnak/ColorCorrection.git
+[submodule "Assets/Packages/Gist"]
+	path = Assets/Packages/Gist
+	url = git@github.com:nobnak/Gist.git
