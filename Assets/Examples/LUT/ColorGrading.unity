@@ -402,7 +402,7 @@ MonoBehaviour:
   master:
     white: 1
     highlight: 0
-    dark: 0
+    shadow: 1
     black: 0
     curve:
       serializedVersion: 2
@@ -410,20 +410,20 @@ MonoBehaviour:
       - serializedVersion: 2
         time: 0
         value: 0
-        inSlope: 1
-        outSlope: 1
+        inSlope: 1.6666666
+        outSlope: 1.6666666
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.25
-        value: 0.25
-        inSlope: 1
-        outSlope: 1
+        time: 0.24000001
+        value: 0.4
+        inSlope: 1.1904762
+        outSlope: 1.1904762
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.75
-        value: 0.75
-        inSlope: 1
-        outSlope: 1
+        time: 0.8
+        value: 0.8
+        inSlope: 0.9047619
+        outSlope: 0.9047619
         tangentMode: 0
       - serializedVersion: 2
         time: 1
@@ -437,7 +437,7 @@ MonoBehaviour:
   red:
     white: 1
     highlight: 0
-    dark: 0
+    shadow: 0
     black: 0
     curve:
       serializedVersion: 2
@@ -449,14 +449,14 @@ MonoBehaviour:
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.25
-        value: 0.25
+        time: 0.2
+        value: 0.2
         inSlope: 1
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.75
-        value: 0.75
+        time: 0.8
+        value: 0.8
         inSlope: 1
         outSlope: 1
         tangentMode: 0
@@ -472,7 +472,7 @@ MonoBehaviour:
   green:
     white: 1
     highlight: 0
-    dark: 0
+    shadow: 0
     black: 0
     curve:
       serializedVersion: 2
@@ -484,14 +484,14 @@ MonoBehaviour:
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.25
-        value: 0.25
+        time: 0.2
+        value: 0.2
         inSlope: 1
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.75
-        value: 0.75
+        time: 0.8
+        value: 0.8
         inSlope: 1
         outSlope: 1
         tangentMode: 0
@@ -507,7 +507,7 @@ MonoBehaviour:
   blue:
     white: 1
     highlight: 0
-    dark: 0
+    shadow: 0
     black: 0
     curve:
       serializedVersion: 2
@@ -519,14 +519,14 @@ MonoBehaviour:
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.25
-        value: 0.25
+        time: 0.2
+        value: 0.2
         inSlope: 1
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.75
-        value: 0.75
+        time: 0.8
+        value: 0.8
         inSlope: 1
         outSlope: 1
         tangentMode: 0
