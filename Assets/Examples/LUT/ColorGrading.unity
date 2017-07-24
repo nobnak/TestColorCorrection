@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -352,17 +352,12 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1560457667}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6256a96fa278cc740b904b07557cb661, type: 3}
+  m_Script: {fileID: 11500000, guid: 6cb1aa20315446745b20a0e9d1b3a68a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    updateInterval: 0.5
-    lutImageName: LUT.png
-    alternativeImage: {fileID: 0}
-  filterMat: {fileID: 2100000, guid: 8c10b2ae3c315fa40a935b50298b8999, type: 2}
-  propLut: _Lut
+  gradingShader: {fileID: 4800000, guid: 467110807e1b34845b5d471783eebaa6, type: 3}
 --- !u!114 &1560457674
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -371,11 +366,106 @@ MonoBehaviour:
   m_GameObject: {fileID: 1560457667}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0263a4de6987a5043bdb6cfadec921bd, type: 3}
+  m_Script: {fileID: 11500000, guid: bebfb810e6e50de43a2cdfc360c3b08a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data:
-    updateInterval: 0.5
-    lutImageName: LUT.png
-    alternativeImage: {fileID: 2800000, guid: 65a59388e93e2c84c990807d388ef413, type: 3}
-  filterMat: {fileID: 2100000, guid: c4cb603c3dace5341b662b7b36bf6f87, type: 2}
+  LUTOnUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1560457673}
+        m_MethodName: set_Lut
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+    m_TypeName: ColorCorrection.LUTGenerator+LUTEvent, Assembly-CSharp, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  master:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0.87831765
+      outSlope: 0.87831765
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.35961872
+      value: 0.31585947
+      inSlope: 1.0114677
+      outSlope: 1.0114677
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 0.6910297
+      value: 0.6951984
+      inSlope: 1.0655627
+      outSlope: 1.0655627
+      tangentMode: 34
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 0.9865078
+      outSlope: 0.9865078
+      tangentMode: 34
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  red:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  green:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  blue:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 1
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
