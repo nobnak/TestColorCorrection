@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.22571328, b: 0.3069217, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ MonoBehaviour:
   master:
     white: 1
     highlight: 0
-    shadow: 1
+    shadow: 0
     black: 0
     curve:
       serializedVersion: 2
@@ -410,20 +410,20 @@ MonoBehaviour:
       - serializedVersion: 2
         time: 0
         value: 0
-        inSlope: 1.6666666
-        outSlope: 1.6666666
+        inSlope: 1
+        outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.24000001
-        value: 0.4
-        inSlope: 1.1904762
-        outSlope: 1.1904762
+        time: 0.25
+        value: 0.25
+        inSlope: 1
+        outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.8
-        value: 0.8
-        inSlope: 0.9047619
-        outSlope: 0.9047619
+        time: 0.75
+        value: 0.75
+        inSlope: 1
+        outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
         time: 1
@@ -449,14 +449,14 @@ MonoBehaviour:
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.2
-        value: 0.2
+        time: 0.25
+        value: 0.25
         inSlope: 1
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.8
-        value: 0.8
+        time: 0.75
+        value: 0.75
         inSlope: 1
         outSlope: 1
         tangentMode: 0
@@ -484,14 +484,14 @@ MonoBehaviour:
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.2
-        value: 0.2
+        time: 0.25
+        value: 0.25
         inSlope: 1
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.8
-        value: 0.8
+        time: 0.75
+        value: 0.75
         inSlope: 1
         outSlope: 1
         tangentMode: 0
@@ -519,14 +519,14 @@ MonoBehaviour:
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.2
-        value: 0.2
+        time: 0.25
+        value: 0.25
         inSlope: 1
         outSlope: 1
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.8
-        value: 0.8
+        time: 0.75
+        value: 0.75
         inSlope: 1
         outSlope: 1
         tangentMode: 0
